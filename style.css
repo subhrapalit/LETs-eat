@@ -1,0 +1,77 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+h1{
+    font-size: 40px;
+   
+}
+h2{
+    font-size: 30px;
+   
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 200px;
+    box-sizing: border-box;
+    
+}
+.orange-color{
+    color: rgb(240, 82, 9);
+}
+
+.half-width{
+    width: 60%;
+    padding-left: 5%;    
+   
+}
+.half-width a{
+
+    line-height: 200px;
+}
+
+.half-width img{
+    width: 60%;
+    
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: rgb(38, 11, 194);
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 17px;
+   
+}
+.about-us{
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+   
+
+}
+#food-area-intro{
+    text-align: center;
+    color: rgb(199, 9, 72);
+}
+   
+
+.recipe-item{
+    width: 30%;
+    margin: 5% 5%;
+    padding: 15px 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px rgb(95, 31, 79);
+}
+.recipe img{
+    width: 100%;
+}
+
+footer{
+    background-image: linear-gradient(rgb(2, 2, 48), black);
+    background-size: cover;
+    background-position: bottom;
+    color: cyan;
+    text-align: center;
+    
+}
